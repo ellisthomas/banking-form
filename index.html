@@ -1,99 +1,91 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8"></meter>
+		<meta charset="utf-8">
 		<title>Bankning Form</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	
 	<body>
 		
 	<form action="javascript:void(0);">
 		<fieldset>
-			<legend>Personal Info</legend>
-				First name:
-				<input type="text" name="first name" value="">
-				<label for=""></label>
+		<legend>Personal Info</legend>
+				<label for="First-name">First name</label>
+				<input type="text" name="first-name" value="">
 
-				Middle inital:
-				<input type="text" name="middle inital" value="">
-				<label for=""></label>
+				<label for="Middle-inital">Middle inital</label>
+				<input type="text" name="middle-inital" value="">
 
-				Last name:
-				<input type="text" name="last name" value="">
-				<label for=""></label>
+				<label for="Last-name">Last name</label>
+				<input type="text" name="last-name" value="">
 
-				Applicant address:
+				<label for="Address">Address</label>
 				<input type="text" name="address" value="">
-				<label for=""></label>
 
-				Applicant occupation:
+				<label for="occupation">Occupation</label>
 				<input type="text" name="occupation" value="">
-				<label for=""></label>
 
-				Employer:
+				<label for="employer">Employer</label>
 				<input type="text" name="employer" value="">
-				<label for=""></label>
 
-				Employer address:
-				<input type="text" name="employer address" value="">
-				<label for=""></label>
+				<label for="employer-address">Employer address</label>
+				<input type="text" name="employer-address" value="">
 		</fieldset> 
 			
 		
 		<fieldset>
-			<legend>Type of Loan:</legend>
-				<label for="loan type"></label>
+		<legend>Type of Loan:</legend>
+				<label for="loan-type"></label>
 				<select name="loan">
 				<option value="">Commercial</option>
 				<option value="">Real estate</option>
 				<option value="">Personal</option>
 				<option value="">Mortgage</option>
 				</select>
-			<legend>Loan Amount:</legend>
+		<legend>Loan Amount:</legend>
 			<input type="text" name="number">	
 		</fieldset>
 
 		<fieldset>
-			<legend>Loan Length</legend>
-			5 years
-			<input type="radio" name="love" value="1" placeholder="1">
-			15 years
-			<input type="radio" name="love" value="1" placeholder="1">
-			30 years
-			<input type="radio" name="love" value="1" placeholder="1">
+		<legend>Loan Length</legend>
+			<label>5 years</label>
+			<input type="radio" name="5-years" value="1">
+			<label>15 years</label>
+			<input type="radio" name="15-years" value="1">
+			<label>30 years</label>
+			<input type="radio" name="30-years" value="1">
 		
 		</fieldset>
 
 		<fieldset>
-			<legend>Special Conditions</legend>
-			I have a down payment
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
-			Out-of-state resident
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
-			Married
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
-			Loan will be co-signed
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
+		<legend>Special Conditions</legend>
+			<label for="special-conditions">I have a down payment</label>
+			<input type="checkbox" name="special-conditions" value="I have down payment">
+			<label for="special-conditions">Out of state resident</label>
+			<input type="checkbox" name="special-conditions" value="Out of state resident">
+			<label for="special-conditions">Married</label>
+			<input type="checkbox" name="special-conditions" value="Married">
+			<label for="special-conditions">Loan will be co-signed</label>
+			<input type="checkbox" name="special-conditions" value="Loan will be co-signed">
 
 		</fieldset>
 
 		<fieldset>
-			<legend>Additional comments</legend>
+		<legend>Additional comments</legend>
 			<textarea name="comments"></textarea>
 
 		</fieldset>
 
 		<fieldset>
-			<legend>Contact Info</legend>
-			Email:
-			<input type="email" name="email">
-			Phone:
-			<input type="tel" name="phone">
-			LinkedIn URL
-			<input type="url" name="LinkedIn">
-	
-
+		<legend>Contact Info</legend>
+					  <label>Email address:</label>
+					  <input type="email" required/>
+					  <label>Phone number:</label>
+					  <input type="tel" />
+					  <label>LinkedIn URL:</label>
+					  <input type="url" />
 		</fieldset>
 
 		<footer>
@@ -109,36 +101,4 @@
 
 
 
-<!-- Build a form that accepts a loan application. It must have the following fields.
 
-Applicant first name
-Applicant middle initial
-Applicant last name
-Applicant address
-Applicant occupation
-Applicant employer
-Employer address
-
-Type of loan select element with these options:
-Commercial
-Real estate
-Personal
-Mortgage
-
-Requested amount of loan:
-Radio button elements for loan length
-5 years
-15 years
-30 years
-
-Checkbox group for special conditions:
-I have a down payment
-Out-of-state resident
-Married
-Loan will be co-signed
-
-A text area to allow for additional comments
-Applicant email address
-Applicant telephone number
-Applicant LinkedIn URL
-Contact GitHub API Training Shop Blog About -->

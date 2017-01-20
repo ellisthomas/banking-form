@@ -4,40 +4,41 @@
 		<meta charset="utf-8"></meter>
 		<title>Bankning Form</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	
 	<body>
 		
-	<form action="javascript:void(0);">
+	<!-- <form action="javascript:void(0);"> -->
 		<fieldset>
 			<legend>Personal Info</legend>
-				First name:
+				
+				<label for="">First name:</label>
 				<input type="text" name="first name" value="">
-				<label for=""></label>
 
-				Middle inital:
+				
+				<label for="">Middle inital:</label>
 				<input type="text" name="middle inital" value="">
-				<label for=""></label>
 
-				Last name:
+				
+				<label for="">Last name:</label>
 				<input type="text" name="last name" value="">
-				<label for=""></label>
 
-				Applicant address:
+				
+				<label for="">Applicant address:</label>
 				<input type="text" name="address" value="">
-				<label for=""></label>
 
-				Applicant occupation:
+				
+				<label for="">Applicant occupation:</label>
 				<input type="text" name="occupation" value="">
-				<label for=""></label>
 
-				Employer:
+				
+				<label for="">Employer:</label>
 				<input type="text" name="employer" value="">
-				<label for=""></label>
 
-				Employer address:
+				
+				<label for="">Employer address:</label>
 				<input type="text" name="employer address" value="">
-				<label for=""></label>
 		</fieldset> 
 			
 		
@@ -50,31 +51,34 @@
 				<option value="">Personal</option>
 				<option value="">Mortgage</option>
 				</select>
-			<legend>Loan Amount:</legend>
-			<input type="text" name="number">	
 		</fieldset>
 
 		<fieldset>
+			<legend>Loan Amount:</legend>
+			<input type="text" name="number">
+		</fieldset>	
+
+		<fieldset>
 			<legend>Loan Length</legend>
-			5 years
-			<input type="radio" name="love" value="1" placeholder="1">
-			15 years
-			<input type="radio" name="love" value="1" placeholder="1">
-			30 years
-			<input type="radio" name="love" value="1" placeholder="1">
+			<label>5 years</label>
+			<input type="radio" name="loan" value="1" placeholder="1">
+			<label>15 years</label>
+			<input type="radio" name="loann" value="1" placeholder="1">
+			<label>30 years</label>
+			<input type="radio" name="loan" value="1" placeholder="1">
 		
 		</fieldset>
 
 		<fieldset>
 			<legend>Special Conditions</legend>
-			I have a down payment
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
-			Out-of-state resident
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
-			Married
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
-			Loan will be co-signed
-			<input type="checkbox" name="hobbies" value="Tissue Holding">
+			<label for="Special Conditions">I have a down payment</label>
+			<input type="checkbox" name="Special-Conditions" value="I have a downpayment">
+			<label for="Special Conditions">Out-of-state resident</label>
+			<input type="checkbox" name="Special-Conditions" value="Out of state resident">
+			<label for="Special Conditions">Married</label>
+			<input type="checkbox" name="Special-Conditions" value="Married">
+			<label for="Special Conditions">Loan will be co-signed</label>
+			<input type="checkbox" name="Special-Conditions" value="Loan will be co-signed">
 
 		</fieldset>
 
@@ -86,13 +90,14 @@
 
 		<fieldset>
 			<legend>Contact Info</legend>
-			Email:
+		<!-- <form> -->
+			<label for="Contact Info">Email:</label>
 			<input type="email" name="email">
-			Phone:
+			<label for="Conatact Info">Phone:</label>
 			<input type="tel" name="phone">
-			LinkedIn URL
+			<label for="Contact Info">LinkedIn URL</label>
 			<input type="url" name="LinkedIn">
-	
+	    <!-- </form> -->
 
 		</fieldset>
 
@@ -109,36 +114,3 @@
 
 
 
-<!-- Build a form that accepts a loan application. It must have the following fields.
-
-Applicant first name
-Applicant middle initial
-Applicant last name
-Applicant address
-Applicant occupation
-Applicant employer
-Employer address
-
-Type of loan select element with these options:
-Commercial
-Real estate
-Personal
-Mortgage
-
-Requested amount of loan:
-Radio button elements for loan length
-5 years
-15 years
-30 years
-
-Checkbox group for special conditions:
-I have a down payment
-Out-of-state resident
-Married
-Loan will be co-signed
-
-A text area to allow for additional comments
-Applicant email address
-Applicant telephone number
-Applicant LinkedIn URL
-Contact GitHub API Training Shop Blog About -->

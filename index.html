@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"></meter>
 		<title>Bankning Form</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="main.css">
@@ -11,89 +11,102 @@
 		
 	<form action="javascript:void(0);">
 		<fieldset>
-		<legend>Personal Info</legend>
-				<label for="First-name">First name</label>
-				<input type="text" name="first-name" value="">
+			<legend>Personal Info</legend>
+				
+				<label for="">First name:</label>
+				<input type="text" name="first name">
 
-				<label for="Middle-inital">Middle inital</label>
-				<input type="text" name="middle-inital" value="">
+				
+				<label for="">Middle inital:</label>
+				<input type="text" name="middle inital">
 
-				<label for="Last-name">Last name</label>
-				<input type="text" name="last-name" value="">
+				
+				<label for="">Last name:</label>
+				<input type="text" name="last name">
 
-				<label for="Address">Address</label>
-				<input type="text" name="address" value="">
+				
+				<label for="">Applicant address:</label>
+				<input type="text" name="address">
 
-				<label for="occupation">Occupation</label>
-				<input type="text" name="occupation" value="">
+				
+				<label for="">Applicant occupation:</label>
+				<input type="text" name="occupation">
 
-				<label for="employer">Employer</label>
-				<input type="text" name="employer" value="">
+				
+				<label for="">Employer:</label>
+				<input type="text" name="employer">
 
-				<label for="employer-address">Employer address</label>
-				<input type="text" name="employer-address" value="">
+				
+				<label for="">Employer address:</label>
+				<input type="text" name="employer address">
 		</fieldset> 
 			
 		
 		<fieldset>
-		<legend>Type of Loan:</legend>
-				<label for="loan-type"></label>
+			<legend>Type of Loan:</legend>
+				<label for="loan type"></label>
 				<select name="loan">
 				<option value="">Commercial</option>
 				<option value="">Real estate</option>
 				<option value="">Personal</option>
 				<option value="">Mortgage</option>
 				</select>
-		<legend>Loan Amount:</legend>
-			<input type="text" name="number">	
 		</fieldset>
 
 		<fieldset>
-		<legend>Loan Length</legend>
+			<legend>Loan Amount:</legend>
+			<input type="text" name="number">
+		</fieldset>	
+
+		<fieldset>
+			<legend>Loan Length</legend>
 			<label>5 years</label>
-			<input type="radio" name="5-years" value="1">
+			<input type="radio" name="loan" value="1" placeholder="1">
 			<label>15 years</label>
-			<input type="radio" name="15-years" value="1">
+			<input type="radio" name="loan" value="1" placeholder="1">
 			<label>30 years</label>
-			<input type="radio" name="30-years" value="1">
+			<input type="radio" name="loan" value="1" placeholder="1">
 		
 		</fieldset>
 
 		<fieldset>
-		<legend>Special Conditions</legend>
-			<label for="special-conditions">I have a down payment</label>
-			<input type="checkbox" name="special-conditions" value="I have down payment">
-			<label for="special-conditions">Out of state resident</label>
-			<input type="checkbox" name="special-conditions" value="Out of state resident">
-			<label for="special-conditions">Married</label>
-			<input type="checkbox" name="special-conditions" value="Married">
-			<label for="special-conditions">Loan will be co-signed</label>
-			<input type="checkbox" name="special-conditions" value="Loan will be co-signed">
+			<legend>Special Conditions</legend>
+			<label for="Special Conditions">I have a down payment</label>
+			<input type="checkbox" name="Special-Conditions" value="I have a downpayment">
+			<label for="Special Conditions">Out-of-state resident</label>
+			<input type="checkbox" name="Special-Conditions" value="Out of state resident">
+			<label for="Special Conditions">Married</label>
+			<input type="checkbox" name="Special-Conditions" value="Married">
+			<label for="Special Conditions">Loan will be co-signed</label>
+			<input type="checkbox" name="Special-Conditions" value="Loan will be co-signed">
 
 		</fieldset>
 
 		<fieldset>
-		<legend>Additional comments</legend>
+			<legend>Additional comments</legend>
 			<textarea name="comments"></textarea>
 
 		</fieldset>
-
+		</form>
 		<fieldset>
-		<legend>Contact Info</legend>
-					  <label>Email address:</label>
-					  <input type="email" required/>
-					  <label>Phone number:</label>
-					  <input type="tel" />
-					  <label>LinkedIn URL:</label>
-					  <input type="url" />
+			<legend>Contact Info</legend>
+		
+			<label for="Contact Info">Email:</label>
+			<input type="email" name="email" value="">
+			<label for="Contact Info">Phone:</label>
+			<input type="tel" name="phone" value="">
+			<label for="Contact Info">LinkedIn URL</label>
+			<input type="url" name="LinkedIn" value="">
+	    </form>
+
 		</fieldset>
+		</form>
 
 		<footer>
 			&copy You are not approved Banking & Loan LLC. 2017
 		</footer>
 	</body>
 </html>
-
 
 
 

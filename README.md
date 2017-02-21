@@ -31,6 +31,7 @@ When a valid web URL or email address is entered into the corresponding field, t
 15. Applicant LinkedIn URL
 
 ### **Banking Form(screenshot):**
+![Banking Screenshot]https://raw.githubusercontent.com/ellisthomas/banking-form/master/screenshots/banking-form.png
 
 ### How to run (Node must be installed on your machine):
 ```
